@@ -1,0 +1,32 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# OS and IDE junk
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+
+# VS Code settings (optional: allow if collaborating)
+.vscode/
+
+# Data output
+data/
+*.csv
+*.parquet
+*.json
+*.xlsx
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.env.*
+
+# Mac backup files
+*.~*
