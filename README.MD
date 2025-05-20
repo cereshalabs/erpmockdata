@@ -18,10 +18,26 @@ Rather than waiting on customer data or mocking it manually, this tool generates
 
 ## 📁 Project Structure
 
+```
 fake-erp-data/
 ├── data/ # Generated CSVs (output)
 ├── notebooks/ # (Optional) Jupyter notebooks for exploration
 ├── src/ # Python scripts and generators
 │ └── generate_data.py
 ├── requirements.txt
+```
+
+## Generate Sample Data
+
+Run the generator script
+
+python src/generate_data.py
+
+This will create 4 CSV files in the `data/` directory:
+
+- `products.csv`
+- `stations.csv`
+- `operators.csv`
+- `orders.csv`
+
 
