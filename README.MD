@@ -17,3 +17,11 @@ Rather than waiting on customer data or mocking it manually, this tool generates
 ---
 
 ## 📁 Project Structure
+
+fake-erp-data/
+├── data/ # Generated CSVs (output)
+├── notebooks/ # (Optional) Jupyter notebooks for exploration
+├── src/ # Python scripts and generators
+│ └── generate_data.py
+├── requirements.txt
+
